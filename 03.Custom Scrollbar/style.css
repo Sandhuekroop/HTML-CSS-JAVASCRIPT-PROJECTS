@@ -1,0 +1,63 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+
+   
+}
+
+section {
+    background: rgb(255, 0, 64);
+    padding: 20px 0; 
+}
+
+
+ .card {
+    width: 50%;
+    margin: 20px ;
+    padding: 20px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    background-color: aliceblue;
+}
+
+.card h2{
+    text-align: left;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: crimson;
+}
+.card{
+    width: 700px;
+    background: #ccc;
+    padding: 20px;
+    margin: 20px;
+    font-family: sans-serif;
+    line-height:28px ;
+}
+
+/* scrollbar */
+::-webkit-scrollbar{
+    background-color: transparent;
+width: 10px;
+border: 2px dashed white;
+}
+
+/* scrolllbar thumb */
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(#21d4fd, #b721ff);
+    border-radius: 100px;
+
+}
